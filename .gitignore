@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.temporary
+
+# QGIS project files )
+*.qgs~
+*.qgz~
