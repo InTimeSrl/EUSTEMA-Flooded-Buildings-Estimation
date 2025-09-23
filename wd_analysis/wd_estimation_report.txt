@@ -1,0 +1,56 @@
+=== REPORT ANALISI SOMMERSIONE EDIFICI ===
+
+Data elaborazione: 2025-09-23 01:13:12
+Versione script: wd_estimation.py
+Campo altezza utilizzato: H_UVL
+Opzione riproiezione: 1 (riproietta vettoriale)
+
+=== FILE DI INPUT/OUTPUT ===
+File vettoriale: E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\GORO_V_UVL_GPG.shp
+File raster: E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\emilia_extract_02_depth_with_nodata.tif
+File output: E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\wd_analysis\wd_estimation.shp
+File report: E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\wd_analysis\wd_estimation_report.txt
+File log: E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\wd_analysis\wd_estimation.log
+
+=== SISTEMI DI RIFERIMENTO ===
+CRS vettoriale originale: EPSG:32632
+CRS raster: EPSG:7791
+NOTA: Sistemi di riferimento diversi - applicata riproiezione automatica
+
+=== RIEPILOGO ELABORAZIONE ===
+Edifici totali nel vettoriale: 2103
+Edifici processati con successo: 1580 (75.1%)
+Edifici con sommersione rilevata: 1580 (75.1%)
+Edifici non processati: 523 (24.9%)
+  - Cause: senza sovrapposizione con raster, altezza zero/negativa, errori geometrici
+
+=== METODOLOGIA ===
+L'analisi calcola la sommersione degli edifici campionando i valori di profondità
+dell'acqua nei pixel esterni al perimetro di ciascun edificio (buffer di 1 pixel).
+La percentuale di sommersione è calcolata come: (profondità_media / altezza_edificio) × 100
+I valori sono limitati al 100% per edifici completamente sommersi.
+
+=== PROFONDITÀ ACQUA ===
+Profondità media: 2.21 m (range: 0.07 - 3.19 m)
+Profondità massima rilevata: 4.16 m
+
+=== CARATTERISTICHE TERRITORIO ===
+Area geografica analizzata (convex hull): 175.9 ettari
+Edifici con danno significativo (≥50%): 1055 su 1580
+Densità edifici critici: 6.0 edifici/ettaro
+Altezza media edifici: 3.8 m (range: 1.0 - 9.0 m)
+
+=== CLASSIFICAZIONE EDIFICI PER LIVELLO SOMMERSIONE ===
+Sommersione bassa (<25%): 23 edifici (1.5%)
+Sommersione media (25-75%): 1081 edifici (68.4%)
+Sommersione alta (75-99%): 193 edifici (12.2%)
+Completamente sommersi (≥100%): 283 edifici (17.9%)
+
+=== CAMPI OUTPUT SHAPEFILE ===
+DEPTH_AVG: Profondità media dell'acqua attorno all'edificio (m)
+DEPTH_MAX: Profondità massima dell'acqua attorno all'edificio (m)
+DEPTH_MIN: Profondità minima dell'acqua attorno all'edificio (m)
+PERC_SUBM: Percentuale di sommersione dell'edificio (%)
+H_UVL: Altezza dell'edificio utilizzata nel calcolo (m)
+AREA_BASE: Area della base dell'edificio (m²)
++ tutti i campi originali del vettoriale di input
