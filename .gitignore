@@ -12,3 +12,6 @@ __pycache__/
 *.qgs~
 *.qgz
 *.qgz~
+
+# Compressed files
+*.zip
