@@ -8,5 +8,7 @@ __pycache__/
 .temporary
 
 # QGIS project files )
+*.qgs
 *.qgs~
+*.qgz
 *.qgz~
