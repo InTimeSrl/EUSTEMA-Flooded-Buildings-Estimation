@@ -31,6 +31,7 @@ OUTPUT_PATH = r"E:\RECOVERY\WORK\IN-TIME\FLOODING\WATER-DEPTH\wd_analysis\wd_est
 HEIGHT_FIELD = "H_UVL"  # Nome del campo altezza edificio nel vettoriale di input
 REPROJECTION_OPTION = 1  # 1=riproietta vettoriale, 2=riproietta raster, 3=riproietta entrambi
 TARGET_EPSG = "32632"    # EPSG di destinazione (usato solo se REPROJECTION_OPTION = 3)
+BUFFER_DISTANCE = None   # Distanza buffer in metri (None = automatico = risoluzione pixel)
 
 # Configura logging
 log_path = OUTPUT_PATH.replace('wd_estimation.shp', 'wd_estimation.log')
@@ -213,7 +214,7 @@ for idx, row in vector.iterrows():
     vol = a_base * h_uvl
     
     # Estrai valori esterni al perimetro
-    external_values = get_external_pixels(geom, raster)
+    external_values = get_external_pixels(geom, raster, BUFFER_DISTANCE)
     
     if external_values.size > 0 and h_uvl > 0:
         # Calcola statistiche di sommersione
