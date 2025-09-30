@@ -1,0 +1,7 @@
+# Requirements for EUSTEMA Flooded Buildings Estimation
+# Core geospatial libraries
+geopandas
+rasterio
+shapely
+fiona
+numpy
