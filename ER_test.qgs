@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2025-10-26T12:36:10" saveUser="valer" saveUserFull="Valerio Tulliani" projectname="" version="3.34.10-Prizren">
+<qgis saveUserFull="Valerio Tulliani" saveUser="valer" saveDateTime="2025-11-02T03:03:45" version="3.34.10-Prizren" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -17,62 +17,72 @@
       <geographicflag>false</geographicflag>
     </spatialrefsys>
   </projectCrs>
-  <elevation-shading-renderer hillshading-z-factor="1" is-active="0" hillshading-is-active="0" light-azimuth="315" edl-distance-unit="0" combined-method="0" edl-is-active="1" edl-strength="1000" light-altitude="45" edl-distance="0.5" hillshading-is-multidirectional="0"/>
+  <elevation-shading-renderer is-active="0" hillshading-is-active="0" light-altitude="45" edl-distance-unit="0" edl-is-active="1" combined-method="0" edl-distance="0.5" light-azimuth="315" hillshading-z-factor="1" hillshading-is-multidirectional="0" edl-strength="1000"/>
   <layer-tree-group>
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group expanded="1" groupLayer="" name="GORO" checked="Qt::Checked">
+    <layer-tree-group checked="Qt::Checked" groupLayer="" expanded="1" name="GORO">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/valer/Downloads/00001/output/wd_analysis_20251026_123321.shp" expanded="1" id="wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f" name="wd_analysis_20251026_123321" checked="Qt::Checked" legend_split_behavior="0">
+      <layer-tree-layer id="wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6" legend_split_behavior="0" source="C:/Users/valer/Downloads/00001/output/wd_analysis_20251027_205558.shp" patch_size="-1,-1" checked="Qt::Checked" expanded="1" name="wd_analysis_20251027_205558" providerKey="ogr" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./wd_analysis/wd_estimation.shp" expanded="1" id="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" name="wd_estimation" checked="Qt::Checked" legend_split_behavior="0">
+      <layer-tree-layer id="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" legend_split_behavior="0" source="./wd_analysis/wd_estimation.shp" patch_size="-1,-1" checked="Qt::Unchecked" expanded="1" name="wd_estimation" providerKey="ogr" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./GORO_V_UVL_GPG.shp" expanded="1" id="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" name="GORO_V_UVL_GPG" checked="Qt::Unchecked" legend_split_behavior="0">
+      <layer-tree-layer id="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" legend_split_behavior="0" source="./GORO_V_UVL_GPG.shp" patch_size="-1,-1" checked="Qt::Unchecked" expanded="1" name="GORO_V_UVL_GPG" providerKey="ogr" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="gdal" legend_exp="" source="./DATI/emilia_extract_02_depth_with_nodata.tif" expanded="0" id="emilia_extract_02_depth_with_nodata_67a6d738_eb19_4ad4_b914_6a705646462c" name="emilia_extract_02_depth_with_nodata" checked="Qt::Checked" legend_split_behavior="0">
+      <layer-tree-layer id="emilia_extract_02_depth_with_nodata_67a6d738_eb19_4ad4_b914_6a705646462c" legend_split_behavior="0" source="./DATI/emilia_extract_02_depth_with_nodata.tif" patch_size="-1,-1" checked="Qt::Checked" expanded="0" name="emilia_extract_02_depth_with_nodata" providerKey="gdal" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="gdal" legend_exp="" source="./DATI/emilia_extract_02.tif" expanded="0" id="emilia_extract_02_6d18aae8_b644_4fb1_9bce_2eda19aa3f66" name="emilia_extract_02" checked="Qt::Unchecked" legend_split_behavior="0">
+      <layer-tree-layer id="emilia_extract_02_6d18aae8_b644_4fb1_9bce_2eda19aa3f66" legend_split_behavior="0" source="./DATI/emilia_extract_02.tif" patch_size="-1,-1" checked="Qt::Unchecked" expanded="0" name="emilia_extract_02" providerKey="gdal" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" groupLayer="" name="COMACCHIO" checked="Qt::Checked">
+    <layer-tree-group checked="Qt::Checked" groupLayer="" expanded="1" name="COMACCHIO">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./COMACCHIO_V_UVL_GPG.shp" expanded="1" id="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" name="COMACCHIO_V_UVL_GPG" checked="Qt::Unchecked" legend_split_behavior="0">
+      <layer-tree-layer id="ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366" legend_split_behavior="0" source="C:/Users/valer/Downloads/risultati_test_vale/output/ABC_analysis_DEF.shp" patch_size="-1,-1" checked="Qt::Checked" expanded="1" name="ABC_analysis_DEF" providerKey="ogr" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="gdal" legend_exp="" source="./DATI/emilia_extract_01_depth_with_nodata.tif" expanded="0" id="emilia_extract_01_depth_with_nodata_e8e39be0_9178_41e2_80e4_3218b0415979" name="emilia_extract_01_depth_with_nodata" checked="Qt::Checked" legend_split_behavior="0">
+      <layer-tree-layer id="wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b" legend_split_behavior="0" source="C:/Users/valer/Downloads/00001/output/wd_analysis_20251027_205645.shp" patch_size="-1,-1" checked="Qt::Checked" expanded="1" name="wd_analysis_20251027_205645" providerKey="ogr" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer patch_size="-1,-1" providerKey="gdal" legend_exp="" source="./DATI/emilia_extract_01.tif" expanded="0" id="emilia_extract_01_d04b392d_8244_464e_a1f1_bb2ce0257622" name="emilia_extract_01" checked="Qt::Unchecked" legend_split_behavior="0">
+      <layer-tree-layer id="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" legend_split_behavior="0" source="./COMACCHIO_V_UVL_GPG.shp" patch_size="-1,-1" checked="Qt::Unchecked" expanded="1" name="COMACCHIO_V_UVL_GPG" providerKey="ogr" legend_exp="">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer id="emilia_extract_01_depth_with_nodata_e8e39be0_9178_41e2_80e4_3218b0415979" legend_split_behavior="0" source="./DATI/emilia_extract_01_depth_with_nodata.tif" patch_size="-1,-1" checked="Qt::Checked" expanded="0" name="emilia_extract_01_depth_with_nodata" providerKey="gdal" legend_exp="">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer id="emilia_extract_01_d04b392d_8244_464e_a1f1_bb2ce0257622" legend_split_behavior="0" source="./DATI/emilia_extract_01.tif" patch_size="-1,-1" checked="Qt::Unchecked" expanded="0" name="emilia_extract_01" providerKey="gdal" legend_exp="">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer patch_size="-1,-1" providerKey="wms" legend_exp="" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" expanded="1" id="Google_Satellite_2435c2a0_fb73_4ba7_846c_7ab7bca57d4d" name="Google Satellite" checked="Qt::Unchecked" legend_split_behavior="0">
+    <layer-tree-layer id="Google_Satellite_2435c2a0_fb73_4ba7_846c_7ab7bca57d4d" legend_split_behavior="0" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" patch_size="-1,-1" checked="Qt::Checked" expanded="1" name="Google Satellite" providerKey="wms" legend_exp="">
       <customproperties>
         <Option/>
       </customproperties>
@@ -86,15 +96,19 @@
       <item>wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61</item>
       <item>COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546</item>
       <item>GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738</item>
-      <item>wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f</item>
+      <item>wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6</item>
+      <item>wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b</item>
+      <item>ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings type="1" unit="1" intersection-snapping="0" tolerance="12" mode="2" self-snapping="0" scaleDependencyMode="0" maxScale="0" enabled="1" minScale="0">
+  <snapping-settings scaleDependencyMode="0" minScale="0" maxScale="0" tolerance="12" unit="1" enabled="1" type="1" intersection-snapping="0" self-snapping="0" mode="2">
     <individual-layer-settings>
-      <layer-setting id="wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f" type="1" tolerance="12" units="1" maxScale="0" enabled="0" minScale="0"/>
-      <layer-setting id="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" type="1" tolerance="12" units="1" maxScale="0" enabled="0" minScale="0"/>
-      <layer-setting id="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" type="1" tolerance="12" units="1" maxScale="0" enabled="0" minScale="0"/>
-      <layer-setting id="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" type="1" tolerance="12" units="1" maxScale="0" enabled="0" minScale="0"/>
+      <layer-setting id="wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366" minScale="0" maxScale="0" tolerance="12" units="1" enabled="0" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -102,10 +116,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>760669.04839224671013653</xmin>
-      <ymin>4971855.52770859748125076</ymin>
-      <xmax>760975.13767224107868969</xmax>
-      <ymax>4972209.18114859610795975</ymax>
+      <xmin>751787.19747043773531914</xmin>
+      <ymin>4953534.14552515652030706</ymin>
+      <xmax>752561.09056637529283762</xmax>
+      <ymax>4954252.1456281254068017</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -126,58 +140,68 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" name="GORO" checked="Qt::Checked">
-      <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="wd_analysis_20251026_123321" checked="Qt::Checked">
+    <legendgroup open="true" checked="Qt::Checked" name="GORO">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="wd_analysis_20251027_205558">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f" visible="1"/>
+          <legendlayerfile visible="1" layerid="wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="wd_estimation" checked="Qt::Checked">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0" name="wd_estimation">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" visible="1"/>
+          <legendlayerfile visible="0" layerid="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="GORO_V_UVL_GPG" checked="Qt::Unchecked">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0" name="GORO_V_UVL_GPG">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" visible="0"/>
+          <legendlayerfile visible="0" layerid="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" drawingOrder="-1" showFeatureCount="0" name="emilia_extract_02_depth_with_nodata" checked="Qt::Checked">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" showFeatureCount="0" name="emilia_extract_02_depth_with_nodata">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="emilia_extract_02_depth_with_nodata_67a6d738_eb19_4ad4_b914_6a705646462c" visible="1"/>
+          <legendlayerfile visible="1" layerid="emilia_extract_02_depth_with_nodata_67a6d738_eb19_4ad4_b914_6a705646462c" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" drawingOrder="-1" showFeatureCount="0" name="emilia_extract_02" checked="Qt::Unchecked">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="emilia_extract_02">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="emilia_extract_02_6d18aae8_b644_4fb1_9bce_2eda19aa3f66" visible="0"/>
+          <legendlayerfile visible="0" layerid="emilia_extract_02_6d18aae8_b644_4fb1_9bce_2eda19aa3f66" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" name="COMACCHIO" checked="Qt::Checked">
-      <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="COMACCHIO_V_UVL_GPG" checked="Qt::Unchecked">
+    <legendgroup open="true" checked="Qt::Checked" name="COMACCHIO">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="ABC_analysis_DEF">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" visible="0"/>
+          <legendlayerfile visible="1" layerid="ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" drawingOrder="-1" showFeatureCount="0" name="emilia_extract_01_depth_with_nodata" checked="Qt::Checked">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="emilia_extract_01_depth_with_nodata_e8e39be0_9178_41e2_80e4_3218b0415979" visible="1"/>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="wd_analysis_20251027_205645">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" layerid="wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="false" drawingOrder="-1" showFeatureCount="0" name="emilia_extract_01" checked="Qt::Unchecked">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0" name="COMACCHIO_V_UVL_GPG">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="0" layerid="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546" isInOverview="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" showFeatureCount="0" name="emilia_extract_01_depth_with_nodata">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="emilia_extract_01_d04b392d_8244_464e_a1f1_bb2ce0257622" visible="0"/>
+          <legendlayerfile visible="1" layerid="emilia_extract_01_depth_with_nodata_e8e39be0_9178_41e2_80e4_3218b0415979" isInOverview="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="emilia_extract_01">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="0" layerid="emilia_extract_01_d04b392d_8244_464e_a1f1_bb2ce0257622" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="Google Satellite" checked="Qt::Unchecked">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="Google Satellite">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Google_Satellite_2435c2a0_fb73_4ba7_846c_7ab7bca57d4d" visible="0"/>
+        <legendlayerfile visible="1" layerid="Google_Satellite_2435c2a0_fb73_4ba7_846c_7ab7bca57d4d" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
-  <main-annotation-layer legendPlaceholderImage="" type="annotation" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+  <main-annotation-layer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="annotation" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
     <id>Annotazioni_4e015765_8245_4ce5_b4ec_ff7223c848b7</id>
     <datasource></datasource>
     <keywordList>
@@ -238,7 +262,420 @@
     <paintEffect/>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer hasScaleBasedVisibilityFlag="0" minScale="100000000" labelsEnabled="0" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" simplifyMaxScale="1" readOnly="0" geometry="Polygon" refreshOnNotifyMessage="" autoRefreshMode="Disabled" type="vector" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" simplifyLocal="1" symbologyReferenceScale="-1" maxScale="0">
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>735359.05429999995976686</xmin>
+        <ymin>4945897.77590000070631504</ymin>
+        <xmax>758944.36770000029355288</xmax>
+        <ymax>4967779.68380000069737434</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>11.96704934359839889</xmin>
+        <ymin>44.61978166724637873</ymin>
+        <xmax>12.27500514366395556</xmax>
+        <ymax>44.82461116332532924</ymax>
+      </wgs84extent>
+      <id>ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366</id>
+      <datasource>C:/Users/valer/Downloads/risultati_test_vale/output/ABC_analysis_DEF.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ABC_analysis_DEF</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28986</srsid>
+          <srid>7791</srid>
+          <authid>EPSG:7791</authid>
+          <description>RDN2008 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
+            <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>28986</srsid>
+            <srid>7791</srid>
+            <authid>EPSG:7791</authid>
+            <description>RDN2008 / UTM zone 32N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{dbf4640c-4392-4367-8257-d0e10957de7f}" locked="0" class="SimpleLine" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="145,82,45,255" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.6" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{601d3046-1a6f-43a6-98df-d8bb33f591a8}" locked="0" class="SimpleFill" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="145,82,45,255" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="104,59,32,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{5757a54d-b528-493d-8e42-97eaf789954c}" locked="0" class="SimpleMarker" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="angle"/>
+                <Option value="square" type="QString" name="cap_style"/>
+                <Option value="145,82,45,255" type="QString" name="color"/>
+                <Option value="1" type="QString" name="horizontal_anchor_point"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="diamond" type="QString" name="name"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="104,59,32,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="diameter" type="QString" name="scale_method"/>
+                <Option value="3" type="QString" name="size"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+                <Option value="MM" type="QString" name="size_unit"/>
+                <Option value="1" type="QString" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
+        <symbols>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{fe4ea581-8141-4a47-842d-b697cd166c59}" locked="0" class="SimpleFill" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="190,178,151,255" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="35,35,35,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.26" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="a_fabbr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="h_uvl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="v_fabbr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="h_mean_ino">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="h_min_inon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="h_max_inon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="perc_v_ino">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="a_fabbr" name=""/>
+        <alias index="2" field="h_uvl" name=""/>
+        <alias index="3" field="v_fabbr" name=""/>
+        <alias index="4" field="h_mean_ino" name=""/>
+        <alias index="5" field="h_min_inon" name=""/>
+        <alias index="6" field="h_max_inon" name=""/>
+        <alias index="7" field="perc_v_ino" name=""/>
+      </aliases>
+      <splitPolicies>
+        <policy field="fid" policy="Duplicate"/>
+        <policy field="a_fabbr" policy="Duplicate"/>
+        <policy field="h_uvl" policy="Duplicate"/>
+        <policy field="v_fabbr" policy="Duplicate"/>
+        <policy field="h_mean_ino" policy="Duplicate"/>
+        <policy field="h_min_inon" policy="Duplicate"/>
+        <policy field="h_max_inon" policy="Duplicate"/>
+        <policy field="perc_v_ino" policy="Duplicate"/>
+      </splitPolicies>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="a_fabbr" applyOnUpdate="0" expression=""/>
+        <default field="h_uvl" applyOnUpdate="0" expression=""/>
+        <default field="v_fabbr" applyOnUpdate="0" expression=""/>
+        <default field="h_mean_ino" applyOnUpdate="0" expression=""/>
+        <default field="h_min_inon" applyOnUpdate="0" expression=""/>
+        <default field="h_max_inon" applyOnUpdate="0" expression=""/>
+        <default field="perc_v_ino" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="a_fabbr" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="h_uvl" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="v_fabbr" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="h_mean_ino" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="h_min_inon" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="h_max_inon" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="perc_v_ino" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="a_fabbr" desc=""/>
+        <constraint exp="" field="h_uvl" desc=""/>
+        <constraint exp="" field="v_fabbr" desc=""/>
+        <constraint exp="" field="h_mean_ino" desc=""/>
+        <constraint exp="" field="h_min_inon" desc=""/>
+        <constraint exp="" field="h_max_inon" desc=""/>
+        <constraint exp="" field="perc_v_ino" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>735359.05429999995976686</xmin>
+        <ymin>4945897.77590000070631504</ymin>
+        <xmax>758944.36770000029355288</xmax>
+        <ymax>4967779.68380000069737434</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>11.96704934359839889</xmin>
+        <ymin>44.61978166724637873</ymin>
+        <xmax>12.27500514366395556</xmax>
+        <ymax>44.82461116332532924</ymax>
+      </wgs84extent>
       <id>COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546</id>
       <datasource>./COMACCHIO_V_UVL_GPG.shp</datasource>
       <keywordList>
@@ -300,13 +737,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal startExpression="" limitMode="0" endField="" durationField="" accumulate="0" durationUnit="min" mode="0" startField="" endExpression="" enabled="0" fixedDuration="0">
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation clamping="Terrain" zoffset="0" extrusionEnabled="0" respectLayerSymbol="1" zscale="1" symbology="Line" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusion="0" binding="Centroid">
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -315,7 +752,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -323,7 +760,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{6c6ba5f6-8231-4f2e-aa1f-f7bce704d8b4}" pass="0" enabled="1" locked="0">
+            <layer id="{6c6ba5f6-8231-4f2e-aa1f-f7bce704d8b4}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -364,7 +801,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -372,7 +809,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{e77691fe-91f3-48e4-b94e-7bb61b20652d}" pass="0" enabled="1" locked="0">
+            <layer id="{e77691fe-91f3-48e4-b94e-7bb61b20652d}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="141,90,153,255" type="QString" name="color"/>
@@ -397,7 +834,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="marker" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -405,7 +842,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" id="{f4e92f2b-3688-48b1-b76a-b304e3f3d259}" pass="0" enabled="1" locked="0">
+            <layer id="{f4e92f2b-3688-48b1-b76a-b304e3f3d259}" locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
                 <Option value="square" type="QString" name="cap_style"/>
@@ -438,9 +875,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" referencescale="-1" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
         <symbols>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="0" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -448,7 +885,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{5ee83ce8-6708-489a-bae7-ad37fedfc4bc}" pass="0" enabled="1" locked="0">
+            <layer id="{5ee83ce8-6708-489a-bae7-ad37fedfc4bc}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="232,113,141,255" type="QString" name="color"/>
@@ -719,180 +1156,180 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="TY_PORZ" index="0"/>
-        <alias name="" field="D_TY_PORZ" index="1"/>
-        <alias name="" field="TY_INTR" index="2"/>
-        <alias name="" field="D_TY_INTR" index="3"/>
-        <alias name="" field="H_INTR" index="4"/>
-        <alias name="" field="BASE" index="5"/>
-        <alias name="" field="D_BASE" index="6"/>
-        <alias name="" field="TETTO" index="7"/>
-        <alias name="" field="D_TETTO" index="8"/>
-        <alias name="" field="B_UVL" index="9"/>
-        <alias name="" field="H_UVL" index="10"/>
-        <alias name="" field="V_UVL" index="11"/>
-        <alias name="" field="EDI_ID_E" index="12"/>
-        <alias name="" field="TY_E" index="13"/>
-        <alias name="" field="ID_E" index="14"/>
-        <alias name="" field="DT_INI_VAL" index="15"/>
-        <alias name="" field="DATA_AGG" index="16"/>
-        <alias name="" field="D_TIPO_AGG" index="17"/>
-        <alias name="" field="DT_PRES" index="18"/>
-        <alias name="" field="ST_VALID" index="19"/>
-        <alias name="" field="ST_CERTIF" index="20"/>
-        <alias name="" field="QUALITA" index="21"/>
-        <alias name="" field="METODO" index="22"/>
-        <alias name="" field="D_METODO" index="23"/>
-        <alias name="" field="COMP_FONTI" index="24"/>
-        <alias name="" field="SEZ_ID_E" index="25"/>
-        <alias name="" field="TIPO_FONTE" index="26"/>
-        <alias name="" field="DATA_DA" index="27"/>
-        <alias name="" field="DATA_A" index="28"/>
-        <alias name="" field="H_GRONDA" index="29"/>
-        <alias name="" field="H_COLMO" index="30"/>
-        <alias name="" field="A_BASE" index="31"/>
+        <alias index="0" field="TY_PORZ" name=""/>
+        <alias index="1" field="D_TY_PORZ" name=""/>
+        <alias index="2" field="TY_INTR" name=""/>
+        <alias index="3" field="D_TY_INTR" name=""/>
+        <alias index="4" field="H_INTR" name=""/>
+        <alias index="5" field="BASE" name=""/>
+        <alias index="6" field="D_BASE" name=""/>
+        <alias index="7" field="TETTO" name=""/>
+        <alias index="8" field="D_TETTO" name=""/>
+        <alias index="9" field="B_UVL" name=""/>
+        <alias index="10" field="H_UVL" name=""/>
+        <alias index="11" field="V_UVL" name=""/>
+        <alias index="12" field="EDI_ID_E" name=""/>
+        <alias index="13" field="TY_E" name=""/>
+        <alias index="14" field="ID_E" name=""/>
+        <alias index="15" field="DT_INI_VAL" name=""/>
+        <alias index="16" field="DATA_AGG" name=""/>
+        <alias index="17" field="D_TIPO_AGG" name=""/>
+        <alias index="18" field="DT_PRES" name=""/>
+        <alias index="19" field="ST_VALID" name=""/>
+        <alias index="20" field="ST_CERTIF" name=""/>
+        <alias index="21" field="QUALITA" name=""/>
+        <alias index="22" field="METODO" name=""/>
+        <alias index="23" field="D_METODO" name=""/>
+        <alias index="24" field="COMP_FONTI" name=""/>
+        <alias index="25" field="SEZ_ID_E" name=""/>
+        <alias index="26" field="TIPO_FONTE" name=""/>
+        <alias index="27" field="DATA_DA" name=""/>
+        <alias index="28" field="DATA_A" name=""/>
+        <alias index="29" field="H_GRONDA" name=""/>
+        <alias index="30" field="H_COLMO" name=""/>
+        <alias index="31" field="A_BASE" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="TY_PORZ"/>
-        <policy policy="Duplicate" field="D_TY_PORZ"/>
-        <policy policy="Duplicate" field="TY_INTR"/>
-        <policy policy="Duplicate" field="D_TY_INTR"/>
-        <policy policy="Duplicate" field="H_INTR"/>
-        <policy policy="Duplicate" field="BASE"/>
-        <policy policy="Duplicate" field="D_BASE"/>
-        <policy policy="Duplicate" field="TETTO"/>
-        <policy policy="Duplicate" field="D_TETTO"/>
-        <policy policy="Duplicate" field="B_UVL"/>
-        <policy policy="Duplicate" field="H_UVL"/>
-        <policy policy="Duplicate" field="V_UVL"/>
-        <policy policy="Duplicate" field="EDI_ID_E"/>
-        <policy policy="Duplicate" field="TY_E"/>
-        <policy policy="Duplicate" field="ID_E"/>
-        <policy policy="Duplicate" field="DT_INI_VAL"/>
-        <policy policy="Duplicate" field="DATA_AGG"/>
-        <policy policy="Duplicate" field="D_TIPO_AGG"/>
-        <policy policy="Duplicate" field="DT_PRES"/>
-        <policy policy="Duplicate" field="ST_VALID"/>
-        <policy policy="Duplicate" field="ST_CERTIF"/>
-        <policy policy="Duplicate" field="QUALITA"/>
-        <policy policy="Duplicate" field="METODO"/>
-        <policy policy="Duplicate" field="D_METODO"/>
-        <policy policy="Duplicate" field="COMP_FONTI"/>
-        <policy policy="Duplicate" field="SEZ_ID_E"/>
-        <policy policy="Duplicate" field="TIPO_FONTE"/>
-        <policy policy="Duplicate" field="DATA_DA"/>
-        <policy policy="Duplicate" field="DATA_A"/>
-        <policy policy="Duplicate" field="H_GRONDA"/>
-        <policy policy="Duplicate" field="H_COLMO"/>
-        <policy policy="Duplicate" field="A_BASE"/>
+        <policy field="TY_PORZ" policy="Duplicate"/>
+        <policy field="D_TY_PORZ" policy="Duplicate"/>
+        <policy field="TY_INTR" policy="Duplicate"/>
+        <policy field="D_TY_INTR" policy="Duplicate"/>
+        <policy field="H_INTR" policy="Duplicate"/>
+        <policy field="BASE" policy="Duplicate"/>
+        <policy field="D_BASE" policy="Duplicate"/>
+        <policy field="TETTO" policy="Duplicate"/>
+        <policy field="D_TETTO" policy="Duplicate"/>
+        <policy field="B_UVL" policy="Duplicate"/>
+        <policy field="H_UVL" policy="Duplicate"/>
+        <policy field="V_UVL" policy="Duplicate"/>
+        <policy field="EDI_ID_E" policy="Duplicate"/>
+        <policy field="TY_E" policy="Duplicate"/>
+        <policy field="ID_E" policy="Duplicate"/>
+        <policy field="DT_INI_VAL" policy="Duplicate"/>
+        <policy field="DATA_AGG" policy="Duplicate"/>
+        <policy field="D_TIPO_AGG" policy="Duplicate"/>
+        <policy field="DT_PRES" policy="Duplicate"/>
+        <policy field="ST_VALID" policy="Duplicate"/>
+        <policy field="ST_CERTIF" policy="Duplicate"/>
+        <policy field="QUALITA" policy="Duplicate"/>
+        <policy field="METODO" policy="Duplicate"/>
+        <policy field="D_METODO" policy="Duplicate"/>
+        <policy field="COMP_FONTI" policy="Duplicate"/>
+        <policy field="SEZ_ID_E" policy="Duplicate"/>
+        <policy field="TIPO_FONTE" policy="Duplicate"/>
+        <policy field="DATA_DA" policy="Duplicate"/>
+        <policy field="DATA_A" policy="Duplicate"/>
+        <policy field="H_GRONDA" policy="Duplicate"/>
+        <policy field="H_COLMO" policy="Duplicate"/>
+        <policy field="A_BASE" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="TY_PORZ"/>
-        <default expression="" applyOnUpdate="0" field="D_TY_PORZ"/>
-        <default expression="" applyOnUpdate="0" field="TY_INTR"/>
-        <default expression="" applyOnUpdate="0" field="D_TY_INTR"/>
-        <default expression="" applyOnUpdate="0" field="H_INTR"/>
-        <default expression="" applyOnUpdate="0" field="BASE"/>
-        <default expression="" applyOnUpdate="0" field="D_BASE"/>
-        <default expression="" applyOnUpdate="0" field="TETTO"/>
-        <default expression="" applyOnUpdate="0" field="D_TETTO"/>
-        <default expression="" applyOnUpdate="0" field="B_UVL"/>
-        <default expression="" applyOnUpdate="0" field="H_UVL"/>
-        <default expression="" applyOnUpdate="0" field="V_UVL"/>
-        <default expression="" applyOnUpdate="0" field="EDI_ID_E"/>
-        <default expression="" applyOnUpdate="0" field="TY_E"/>
-        <default expression="" applyOnUpdate="0" field="ID_E"/>
-        <default expression="" applyOnUpdate="0" field="DT_INI_VAL"/>
-        <default expression="" applyOnUpdate="0" field="DATA_AGG"/>
-        <default expression="" applyOnUpdate="0" field="D_TIPO_AGG"/>
-        <default expression="" applyOnUpdate="0" field="DT_PRES"/>
-        <default expression="" applyOnUpdate="0" field="ST_VALID"/>
-        <default expression="" applyOnUpdate="0" field="ST_CERTIF"/>
-        <default expression="" applyOnUpdate="0" field="QUALITA"/>
-        <default expression="" applyOnUpdate="0" field="METODO"/>
-        <default expression="" applyOnUpdate="0" field="D_METODO"/>
-        <default expression="" applyOnUpdate="0" field="COMP_FONTI"/>
-        <default expression="" applyOnUpdate="0" field="SEZ_ID_E"/>
-        <default expression="" applyOnUpdate="0" field="TIPO_FONTE"/>
-        <default expression="" applyOnUpdate="0" field="DATA_DA"/>
-        <default expression="" applyOnUpdate="0" field="DATA_A"/>
-        <default expression="" applyOnUpdate="0" field="H_GRONDA"/>
-        <default expression="" applyOnUpdate="0" field="H_COLMO"/>
-        <default expression="" applyOnUpdate="0" field="A_BASE"/>
+        <default field="TY_PORZ" applyOnUpdate="0" expression=""/>
+        <default field="D_TY_PORZ" applyOnUpdate="0" expression=""/>
+        <default field="TY_INTR" applyOnUpdate="0" expression=""/>
+        <default field="D_TY_INTR" applyOnUpdate="0" expression=""/>
+        <default field="H_INTR" applyOnUpdate="0" expression=""/>
+        <default field="BASE" applyOnUpdate="0" expression=""/>
+        <default field="D_BASE" applyOnUpdate="0" expression=""/>
+        <default field="TETTO" applyOnUpdate="0" expression=""/>
+        <default field="D_TETTO" applyOnUpdate="0" expression=""/>
+        <default field="B_UVL" applyOnUpdate="0" expression=""/>
+        <default field="H_UVL" applyOnUpdate="0" expression=""/>
+        <default field="V_UVL" applyOnUpdate="0" expression=""/>
+        <default field="EDI_ID_E" applyOnUpdate="0" expression=""/>
+        <default field="TY_E" applyOnUpdate="0" expression=""/>
+        <default field="ID_E" applyOnUpdate="0" expression=""/>
+        <default field="DT_INI_VAL" applyOnUpdate="0" expression=""/>
+        <default field="DATA_AGG" applyOnUpdate="0" expression=""/>
+        <default field="D_TIPO_AGG" applyOnUpdate="0" expression=""/>
+        <default field="DT_PRES" applyOnUpdate="0" expression=""/>
+        <default field="ST_VALID" applyOnUpdate="0" expression=""/>
+        <default field="ST_CERTIF" applyOnUpdate="0" expression=""/>
+        <default field="QUALITA" applyOnUpdate="0" expression=""/>
+        <default field="METODO" applyOnUpdate="0" expression=""/>
+        <default field="D_METODO" applyOnUpdate="0" expression=""/>
+        <default field="COMP_FONTI" applyOnUpdate="0" expression=""/>
+        <default field="SEZ_ID_E" applyOnUpdate="0" expression=""/>
+        <default field="TIPO_FONTE" applyOnUpdate="0" expression=""/>
+        <default field="DATA_DA" applyOnUpdate="0" expression=""/>
+        <default field="DATA_A" applyOnUpdate="0" expression=""/>
+        <default field="H_GRONDA" applyOnUpdate="0" expression=""/>
+        <default field="H_COLMO" applyOnUpdate="0" expression=""/>
+        <default field="A_BASE" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_PORZ"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TY_PORZ"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TY_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="BASE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_BASE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TETTO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TETTO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="B_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="V_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="EDI_ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DT_INI_VAL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_AGG"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TIPO_AGG"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DT_PRES"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_VALID"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_CERTIF"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="QUALITA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="METODO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_METODO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="COMP_FONTI"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="SEZ_ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TIPO_FONTE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_DA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_A"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_GRONDA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_COLMO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="A_BASE"/>
+        <constraint field="TY_PORZ" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TY_PORZ" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TY_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TY_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TETTO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TETTO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="B_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="V_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="EDI_ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TY_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DT_INI_VAL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_AGG" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TIPO_AGG" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DT_PRES" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ST_VALID" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ST_CERTIF" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="QUALITA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="METODO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_METODO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="COMP_FONTI" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="SEZ_ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TIPO_FONTE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_DA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_A" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_GRONDA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_COLMO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="A_BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="TY_PORZ"/>
-        <constraint exp="" desc="" field="D_TY_PORZ"/>
-        <constraint exp="" desc="" field="TY_INTR"/>
-        <constraint exp="" desc="" field="D_TY_INTR"/>
-        <constraint exp="" desc="" field="H_INTR"/>
-        <constraint exp="" desc="" field="BASE"/>
-        <constraint exp="" desc="" field="D_BASE"/>
-        <constraint exp="" desc="" field="TETTO"/>
-        <constraint exp="" desc="" field="D_TETTO"/>
-        <constraint exp="" desc="" field="B_UVL"/>
-        <constraint exp="" desc="" field="H_UVL"/>
-        <constraint exp="" desc="" field="V_UVL"/>
-        <constraint exp="" desc="" field="EDI_ID_E"/>
-        <constraint exp="" desc="" field="TY_E"/>
-        <constraint exp="" desc="" field="ID_E"/>
-        <constraint exp="" desc="" field="DT_INI_VAL"/>
-        <constraint exp="" desc="" field="DATA_AGG"/>
-        <constraint exp="" desc="" field="D_TIPO_AGG"/>
-        <constraint exp="" desc="" field="DT_PRES"/>
-        <constraint exp="" desc="" field="ST_VALID"/>
-        <constraint exp="" desc="" field="ST_CERTIF"/>
-        <constraint exp="" desc="" field="QUALITA"/>
-        <constraint exp="" desc="" field="METODO"/>
-        <constraint exp="" desc="" field="D_METODO"/>
-        <constraint exp="" desc="" field="COMP_FONTI"/>
-        <constraint exp="" desc="" field="SEZ_ID_E"/>
-        <constraint exp="" desc="" field="TIPO_FONTE"/>
-        <constraint exp="" desc="" field="DATA_DA"/>
-        <constraint exp="" desc="" field="DATA_A"/>
-        <constraint exp="" desc="" field="H_GRONDA"/>
-        <constraint exp="" desc="" field="H_COLMO"/>
-        <constraint exp="" desc="" field="A_BASE"/>
+        <constraint exp="" field="TY_PORZ" desc=""/>
+        <constraint exp="" field="D_TY_PORZ" desc=""/>
+        <constraint exp="" field="TY_INTR" desc=""/>
+        <constraint exp="" field="D_TY_INTR" desc=""/>
+        <constraint exp="" field="H_INTR" desc=""/>
+        <constraint exp="" field="BASE" desc=""/>
+        <constraint exp="" field="D_BASE" desc=""/>
+        <constraint exp="" field="TETTO" desc=""/>
+        <constraint exp="" field="D_TETTO" desc=""/>
+        <constraint exp="" field="B_UVL" desc=""/>
+        <constraint exp="" field="H_UVL" desc=""/>
+        <constraint exp="" field="V_UVL" desc=""/>
+        <constraint exp="" field="EDI_ID_E" desc=""/>
+        <constraint exp="" field="TY_E" desc=""/>
+        <constraint exp="" field="ID_E" desc=""/>
+        <constraint exp="" field="DT_INI_VAL" desc=""/>
+        <constraint exp="" field="DATA_AGG" desc=""/>
+        <constraint exp="" field="D_TIPO_AGG" desc=""/>
+        <constraint exp="" field="DT_PRES" desc=""/>
+        <constraint exp="" field="ST_VALID" desc=""/>
+        <constraint exp="" field="ST_CERTIF" desc=""/>
+        <constraint exp="" field="QUALITA" desc=""/>
+        <constraint exp="" field="METODO" desc=""/>
+        <constraint exp="" field="D_METODO" desc=""/>
+        <constraint exp="" field="COMP_FONTI" desc=""/>
+        <constraint exp="" field="SEZ_ID_E" desc=""/>
+        <constraint exp="" field="TIPO_FONTE" desc=""/>
+        <constraint exp="" field="DATA_DA" desc=""/>
+        <constraint exp="" field="DATA_A" desc=""/>
+        <constraint exp="" field="H_GRONDA" desc=""/>
+        <constraint exp="" field="H_COLMO" desc=""/>
+        <constraint exp="" field="A_BASE" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -915,7 +1352,7 @@
       <previewExpression></previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" minScale="100000000" labelsEnabled="0" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" simplifyMaxScale="1" readOnly="0" geometry="Polygon" refreshOnNotifyMessage="" autoRefreshMode="Disabled" type="vector" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" simplifyLocal="1" symbologyReferenceScale="-1" maxScale="0">
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
       <extent>
         <xmin>757615.70579999964684248</xmin>
         <ymin>4965359.26134073548018932</ymin>
@@ -989,13 +1426,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal startExpression="" limitMode="0" endField="" durationField="" accumulate="0" durationUnit="min" mode="0" startField="" endExpression="" enabled="0" fixedDuration="0">
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation clamping="Terrain" zoffset="0" extrusionEnabled="0" respectLayerSymbol="1" zscale="1" symbology="Line" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusion="0" binding="Centroid">
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -1004,7 +1441,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1012,7 +1449,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{45efb6cc-ed6d-4521-8bc1-934a5da5ac43}" pass="0" enabled="1" locked="0">
+            <layer id="{45efb6cc-ed6d-4521-8bc1-934a5da5ac43}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -1053,7 +1490,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1061,7 +1498,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{710f71a6-1f37-4607-8f26-71cbb1fed4bd}" pass="0" enabled="1" locked="0">
+            <layer id="{710f71a6-1f37-4607-8f26-71cbb1fed4bd}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="255,158,23,255" type="QString" name="color"/>
@@ -1086,7 +1523,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="marker" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1094,7 +1531,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" id="{6d2b43d4-9ac5-49b6-843f-1d75d99e0c4e}" pass="0" enabled="1" locked="0">
+            <layer id="{6d2b43d4-9ac5-49b6-843f-1d75d99e0c4e}" locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
                 <Option value="square" type="QString" name="cap_style"/>
@@ -1127,9 +1564,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" referencescale="-1" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
         <symbols>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="0" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1137,7 +1574,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{a6ede163-ce5d-48a3-a36f-d0378a4ba0d4}" pass="0" enabled="1" locked="0">
+            <layer id="{a6ede163-ce5d-48a3-a36f-d0378a4ba0d4}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="183,72,75,255" type="QString" name="color"/>
@@ -1412,214 +1849,214 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="TY_PORZ" index="0"/>
-        <alias name="" field="D_TY_PORZ" index="1"/>
-        <alias name="" field="TY_INTR" index="2"/>
-        <alias name="" field="D_TY_INTR" index="3"/>
-        <alias name="" field="H_INTR" index="4"/>
-        <alias name="" field="BASE" index="5"/>
-        <alias name="" field="D_BASE" index="6"/>
-        <alias name="" field="TETTO" index="7"/>
-        <alias name="" field="D_TETTO" index="8"/>
-        <alias name="" field="B_UVL" index="9"/>
-        <alias name="" field="H_UVL" index="10"/>
-        <alias name="" field="V_UVL" index="11"/>
-        <alias name="" field="EDI_ID_E" index="12"/>
-        <alias name="" field="TY_E" index="13"/>
-        <alias name="" field="ID_E" index="14"/>
-        <alias name="" field="DT_INI_VAL" index="15"/>
-        <alias name="" field="DATA_AGG" index="16"/>
-        <alias name="" field="D_TIPO_AGG" index="17"/>
-        <alias name="" field="DT_PRES" index="18"/>
-        <alias name="" field="ST_VALID" index="19"/>
-        <alias name="" field="ST_CERTIF" index="20"/>
-        <alias name="" field="QUALITA" index="21"/>
-        <alias name="" field="METODO" index="22"/>
-        <alias name="" field="D_METODO" index="23"/>
-        <alias name="" field="COMP_FONTI" index="24"/>
-        <alias name="" field="SEZ_ID_E" index="25"/>
-        <alias name="" field="TIPO_FONTE" index="26"/>
-        <alias name="" field="DATA_DA" index="27"/>
-        <alias name="" field="DATA_A" index="28"/>
-        <alias name="" field="H_GRONDA" index="29"/>
-        <alias name="" field="H_COLMO" index="30"/>
-        <alias name="" field="A_BASE" index="31"/>
+        <alias index="0" field="TY_PORZ" name=""/>
+        <alias index="1" field="D_TY_PORZ" name=""/>
+        <alias index="2" field="TY_INTR" name=""/>
+        <alias index="3" field="D_TY_INTR" name=""/>
+        <alias index="4" field="H_INTR" name=""/>
+        <alias index="5" field="BASE" name=""/>
+        <alias index="6" field="D_BASE" name=""/>
+        <alias index="7" field="TETTO" name=""/>
+        <alias index="8" field="D_TETTO" name=""/>
+        <alias index="9" field="B_UVL" name=""/>
+        <alias index="10" field="H_UVL" name=""/>
+        <alias index="11" field="V_UVL" name=""/>
+        <alias index="12" field="EDI_ID_E" name=""/>
+        <alias index="13" field="TY_E" name=""/>
+        <alias index="14" field="ID_E" name=""/>
+        <alias index="15" field="DT_INI_VAL" name=""/>
+        <alias index="16" field="DATA_AGG" name=""/>
+        <alias index="17" field="D_TIPO_AGG" name=""/>
+        <alias index="18" field="DT_PRES" name=""/>
+        <alias index="19" field="ST_VALID" name=""/>
+        <alias index="20" field="ST_CERTIF" name=""/>
+        <alias index="21" field="QUALITA" name=""/>
+        <alias index="22" field="METODO" name=""/>
+        <alias index="23" field="D_METODO" name=""/>
+        <alias index="24" field="COMP_FONTI" name=""/>
+        <alias index="25" field="SEZ_ID_E" name=""/>
+        <alias index="26" field="TIPO_FONTE" name=""/>
+        <alias index="27" field="DATA_DA" name=""/>
+        <alias index="28" field="DATA_A" name=""/>
+        <alias index="29" field="H_GRONDA" name=""/>
+        <alias index="30" field="H_COLMO" name=""/>
+        <alias index="31" field="A_BASE" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="TY_PORZ"/>
-        <policy policy="Duplicate" field="D_TY_PORZ"/>
-        <policy policy="Duplicate" field="TY_INTR"/>
-        <policy policy="Duplicate" field="D_TY_INTR"/>
-        <policy policy="Duplicate" field="H_INTR"/>
-        <policy policy="Duplicate" field="BASE"/>
-        <policy policy="Duplicate" field="D_BASE"/>
-        <policy policy="Duplicate" field="TETTO"/>
-        <policy policy="Duplicate" field="D_TETTO"/>
-        <policy policy="Duplicate" field="B_UVL"/>
-        <policy policy="Duplicate" field="H_UVL"/>
-        <policy policy="Duplicate" field="V_UVL"/>
-        <policy policy="Duplicate" field="EDI_ID_E"/>
-        <policy policy="Duplicate" field="TY_E"/>
-        <policy policy="Duplicate" field="ID_E"/>
-        <policy policy="Duplicate" field="DT_INI_VAL"/>
-        <policy policy="Duplicate" field="DATA_AGG"/>
-        <policy policy="Duplicate" field="D_TIPO_AGG"/>
-        <policy policy="Duplicate" field="DT_PRES"/>
-        <policy policy="Duplicate" field="ST_VALID"/>
-        <policy policy="Duplicate" field="ST_CERTIF"/>
-        <policy policy="Duplicate" field="QUALITA"/>
-        <policy policy="Duplicate" field="METODO"/>
-        <policy policy="Duplicate" field="D_METODO"/>
-        <policy policy="Duplicate" field="COMP_FONTI"/>
-        <policy policy="Duplicate" field="SEZ_ID_E"/>
-        <policy policy="Duplicate" field="TIPO_FONTE"/>
-        <policy policy="Duplicate" field="DATA_DA"/>
-        <policy policy="Duplicate" field="DATA_A"/>
-        <policy policy="Duplicate" field="H_GRONDA"/>
-        <policy policy="Duplicate" field="H_COLMO"/>
-        <policy policy="Duplicate" field="A_BASE"/>
+        <policy field="TY_PORZ" policy="Duplicate"/>
+        <policy field="D_TY_PORZ" policy="Duplicate"/>
+        <policy field="TY_INTR" policy="Duplicate"/>
+        <policy field="D_TY_INTR" policy="Duplicate"/>
+        <policy field="H_INTR" policy="Duplicate"/>
+        <policy field="BASE" policy="Duplicate"/>
+        <policy field="D_BASE" policy="Duplicate"/>
+        <policy field="TETTO" policy="Duplicate"/>
+        <policy field="D_TETTO" policy="Duplicate"/>
+        <policy field="B_UVL" policy="Duplicate"/>
+        <policy field="H_UVL" policy="Duplicate"/>
+        <policy field="V_UVL" policy="Duplicate"/>
+        <policy field="EDI_ID_E" policy="Duplicate"/>
+        <policy field="TY_E" policy="Duplicate"/>
+        <policy field="ID_E" policy="Duplicate"/>
+        <policy field="DT_INI_VAL" policy="Duplicate"/>
+        <policy field="DATA_AGG" policy="Duplicate"/>
+        <policy field="D_TIPO_AGG" policy="Duplicate"/>
+        <policy field="DT_PRES" policy="Duplicate"/>
+        <policy field="ST_VALID" policy="Duplicate"/>
+        <policy field="ST_CERTIF" policy="Duplicate"/>
+        <policy field="QUALITA" policy="Duplicate"/>
+        <policy field="METODO" policy="Duplicate"/>
+        <policy field="D_METODO" policy="Duplicate"/>
+        <policy field="COMP_FONTI" policy="Duplicate"/>
+        <policy field="SEZ_ID_E" policy="Duplicate"/>
+        <policy field="TIPO_FONTE" policy="Duplicate"/>
+        <policy field="DATA_DA" policy="Duplicate"/>
+        <policy field="DATA_A" policy="Duplicate"/>
+        <policy field="H_GRONDA" policy="Duplicate"/>
+        <policy field="H_COLMO" policy="Duplicate"/>
+        <policy field="A_BASE" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="TY_PORZ"/>
-        <default expression="" applyOnUpdate="0" field="D_TY_PORZ"/>
-        <default expression="" applyOnUpdate="0" field="TY_INTR"/>
-        <default expression="" applyOnUpdate="0" field="D_TY_INTR"/>
-        <default expression="" applyOnUpdate="0" field="H_INTR"/>
-        <default expression="" applyOnUpdate="0" field="BASE"/>
-        <default expression="" applyOnUpdate="0" field="D_BASE"/>
-        <default expression="" applyOnUpdate="0" field="TETTO"/>
-        <default expression="" applyOnUpdate="0" field="D_TETTO"/>
-        <default expression="" applyOnUpdate="0" field="B_UVL"/>
-        <default expression="" applyOnUpdate="0" field="H_UVL"/>
-        <default expression="" applyOnUpdate="0" field="V_UVL"/>
-        <default expression="" applyOnUpdate="0" field="EDI_ID_E"/>
-        <default expression="" applyOnUpdate="0" field="TY_E"/>
-        <default expression="" applyOnUpdate="0" field="ID_E"/>
-        <default expression="" applyOnUpdate="0" field="DT_INI_VAL"/>
-        <default expression="" applyOnUpdate="0" field="DATA_AGG"/>
-        <default expression="" applyOnUpdate="0" field="D_TIPO_AGG"/>
-        <default expression="" applyOnUpdate="0" field="DT_PRES"/>
-        <default expression="" applyOnUpdate="0" field="ST_VALID"/>
-        <default expression="" applyOnUpdate="0" field="ST_CERTIF"/>
-        <default expression="" applyOnUpdate="0" field="QUALITA"/>
-        <default expression="" applyOnUpdate="0" field="METODO"/>
-        <default expression="" applyOnUpdate="0" field="D_METODO"/>
-        <default expression="" applyOnUpdate="0" field="COMP_FONTI"/>
-        <default expression="" applyOnUpdate="0" field="SEZ_ID_E"/>
-        <default expression="" applyOnUpdate="0" field="TIPO_FONTE"/>
-        <default expression="" applyOnUpdate="0" field="DATA_DA"/>
-        <default expression="" applyOnUpdate="0" field="DATA_A"/>
-        <default expression="" applyOnUpdate="0" field="H_GRONDA"/>
-        <default expression="" applyOnUpdate="0" field="H_COLMO"/>
-        <default expression="" applyOnUpdate="0" field="A_BASE"/>
+        <default field="TY_PORZ" applyOnUpdate="0" expression=""/>
+        <default field="D_TY_PORZ" applyOnUpdate="0" expression=""/>
+        <default field="TY_INTR" applyOnUpdate="0" expression=""/>
+        <default field="D_TY_INTR" applyOnUpdate="0" expression=""/>
+        <default field="H_INTR" applyOnUpdate="0" expression=""/>
+        <default field="BASE" applyOnUpdate="0" expression=""/>
+        <default field="D_BASE" applyOnUpdate="0" expression=""/>
+        <default field="TETTO" applyOnUpdate="0" expression=""/>
+        <default field="D_TETTO" applyOnUpdate="0" expression=""/>
+        <default field="B_UVL" applyOnUpdate="0" expression=""/>
+        <default field="H_UVL" applyOnUpdate="0" expression=""/>
+        <default field="V_UVL" applyOnUpdate="0" expression=""/>
+        <default field="EDI_ID_E" applyOnUpdate="0" expression=""/>
+        <default field="TY_E" applyOnUpdate="0" expression=""/>
+        <default field="ID_E" applyOnUpdate="0" expression=""/>
+        <default field="DT_INI_VAL" applyOnUpdate="0" expression=""/>
+        <default field="DATA_AGG" applyOnUpdate="0" expression=""/>
+        <default field="D_TIPO_AGG" applyOnUpdate="0" expression=""/>
+        <default field="DT_PRES" applyOnUpdate="0" expression=""/>
+        <default field="ST_VALID" applyOnUpdate="0" expression=""/>
+        <default field="ST_CERTIF" applyOnUpdate="0" expression=""/>
+        <default field="QUALITA" applyOnUpdate="0" expression=""/>
+        <default field="METODO" applyOnUpdate="0" expression=""/>
+        <default field="D_METODO" applyOnUpdate="0" expression=""/>
+        <default field="COMP_FONTI" applyOnUpdate="0" expression=""/>
+        <default field="SEZ_ID_E" applyOnUpdate="0" expression=""/>
+        <default field="TIPO_FONTE" applyOnUpdate="0" expression=""/>
+        <default field="DATA_DA" applyOnUpdate="0" expression=""/>
+        <default field="DATA_A" applyOnUpdate="0" expression=""/>
+        <default field="H_GRONDA" applyOnUpdate="0" expression=""/>
+        <default field="H_COLMO" applyOnUpdate="0" expression=""/>
+        <default field="A_BASE" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_PORZ"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TY_PORZ"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TY_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_INTR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="BASE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_BASE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TETTO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TETTO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="B_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="V_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="EDI_ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TY_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DT_INI_VAL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_AGG"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_TIPO_AGG"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DT_PRES"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_VALID"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_CERTIF"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="QUALITA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="METODO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="D_METODO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="COMP_FONTI"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="SEZ_ID_E"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="TIPO_FONTE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_DA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DATA_A"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_GRONDA"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_COLMO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="A_BASE"/>
+        <constraint field="TY_PORZ" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TY_PORZ" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TY_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TY_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_INTR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TETTO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TETTO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="B_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="V_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="EDI_ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TY_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DT_INI_VAL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_AGG" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_TIPO_AGG" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DT_PRES" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ST_VALID" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="ST_CERTIF" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="QUALITA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="METODO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="D_METODO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="COMP_FONTI" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="SEZ_ID_E" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="TIPO_FONTE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_DA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DATA_A" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_GRONDA" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_COLMO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="A_BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="TY_PORZ"/>
-        <constraint exp="" desc="" field="D_TY_PORZ"/>
-        <constraint exp="" desc="" field="TY_INTR"/>
-        <constraint exp="" desc="" field="D_TY_INTR"/>
-        <constraint exp="" desc="" field="H_INTR"/>
-        <constraint exp="" desc="" field="BASE"/>
-        <constraint exp="" desc="" field="D_BASE"/>
-        <constraint exp="" desc="" field="TETTO"/>
-        <constraint exp="" desc="" field="D_TETTO"/>
-        <constraint exp="" desc="" field="B_UVL"/>
-        <constraint exp="" desc="" field="H_UVL"/>
-        <constraint exp="" desc="" field="V_UVL"/>
-        <constraint exp="" desc="" field="EDI_ID_E"/>
-        <constraint exp="" desc="" field="TY_E"/>
-        <constraint exp="" desc="" field="ID_E"/>
-        <constraint exp="" desc="" field="DT_INI_VAL"/>
-        <constraint exp="" desc="" field="DATA_AGG"/>
-        <constraint exp="" desc="" field="D_TIPO_AGG"/>
-        <constraint exp="" desc="" field="DT_PRES"/>
-        <constraint exp="" desc="" field="ST_VALID"/>
-        <constraint exp="" desc="" field="ST_CERTIF"/>
-        <constraint exp="" desc="" field="QUALITA"/>
-        <constraint exp="" desc="" field="METODO"/>
-        <constraint exp="" desc="" field="D_METODO"/>
-        <constraint exp="" desc="" field="COMP_FONTI"/>
-        <constraint exp="" desc="" field="SEZ_ID_E"/>
-        <constraint exp="" desc="" field="TIPO_FONTE"/>
-        <constraint exp="" desc="" field="DATA_DA"/>
-        <constraint exp="" desc="" field="DATA_A"/>
-        <constraint exp="" desc="" field="H_GRONDA"/>
-        <constraint exp="" desc="" field="H_COLMO"/>
-        <constraint exp="" desc="" field="A_BASE"/>
+        <constraint exp="" field="TY_PORZ" desc=""/>
+        <constraint exp="" field="D_TY_PORZ" desc=""/>
+        <constraint exp="" field="TY_INTR" desc=""/>
+        <constraint exp="" field="D_TY_INTR" desc=""/>
+        <constraint exp="" field="H_INTR" desc=""/>
+        <constraint exp="" field="BASE" desc=""/>
+        <constraint exp="" field="D_BASE" desc=""/>
+        <constraint exp="" field="TETTO" desc=""/>
+        <constraint exp="" field="D_TETTO" desc=""/>
+        <constraint exp="" field="B_UVL" desc=""/>
+        <constraint exp="" field="H_UVL" desc=""/>
+        <constraint exp="" field="V_UVL" desc=""/>
+        <constraint exp="" field="EDI_ID_E" desc=""/>
+        <constraint exp="" field="TY_E" desc=""/>
+        <constraint exp="" field="ID_E" desc=""/>
+        <constraint exp="" field="DT_INI_VAL" desc=""/>
+        <constraint exp="" field="DATA_AGG" desc=""/>
+        <constraint exp="" field="D_TIPO_AGG" desc=""/>
+        <constraint exp="" field="DT_PRES" desc=""/>
+        <constraint exp="" field="ST_VALID" desc=""/>
+        <constraint exp="" field="ST_CERTIF" desc=""/>
+        <constraint exp="" field="QUALITA" desc=""/>
+        <constraint exp="" field="METODO" desc=""/>
+        <constraint exp="" field="D_METODO" desc=""/>
+        <constraint exp="" field="COMP_FONTI" desc=""/>
+        <constraint exp="" field="SEZ_ID_E" desc=""/>
+        <constraint exp="" field="TIPO_FONTE" desc=""/>
+        <constraint exp="" field="DATA_DA" desc=""/>
+        <constraint exp="" field="DATA_A" desc=""/>
+        <constraint exp="" field="H_GRONDA" desc=""/>
+        <constraint exp="" field="H_COLMO" desc=""/>
+        <constraint exp="" field="A_BASE" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column width="-1" type="field" name="TY_PORZ" hidden="0"/>
-          <column width="-1" type="field" name="D_TY_PORZ" hidden="0"/>
-          <column width="-1" type="field" name="TY_INTR" hidden="0"/>
-          <column width="-1" type="field" name="D_TY_INTR" hidden="0"/>
-          <column width="-1" type="field" name="H_INTR" hidden="0"/>
-          <column width="-1" type="field" name="BASE" hidden="0"/>
-          <column width="-1" type="field" name="D_BASE" hidden="0"/>
-          <column width="-1" type="field" name="TETTO" hidden="0"/>
-          <column width="-1" type="field" name="D_TETTO" hidden="0"/>
-          <column width="-1" type="field" name="B_UVL" hidden="0"/>
-          <column width="-1" type="field" name="H_UVL" hidden="0"/>
-          <column width="-1" type="field" name="V_UVL" hidden="0"/>
-          <column width="-1" type="field" name="EDI_ID_E" hidden="0"/>
-          <column width="-1" type="field" name="TY_E" hidden="0"/>
-          <column width="-1" type="field" name="ID_E" hidden="0"/>
-          <column width="-1" type="field" name="DT_INI_VAL" hidden="0"/>
-          <column width="-1" type="field" name="DATA_AGG" hidden="0"/>
-          <column width="-1" type="field" name="D_TIPO_AGG" hidden="0"/>
-          <column width="-1" type="field" name="DT_PRES" hidden="0"/>
-          <column width="-1" type="field" name="ST_VALID" hidden="0"/>
-          <column width="-1" type="field" name="ST_CERTIF" hidden="0"/>
-          <column width="-1" type="field" name="QUALITA" hidden="0"/>
-          <column width="-1" type="field" name="METODO" hidden="0"/>
-          <column width="-1" type="field" name="D_METODO" hidden="0"/>
-          <column width="-1" type="field" name="COMP_FONTI" hidden="0"/>
-          <column width="-1" type="field" name="SEZ_ID_E" hidden="0"/>
-          <column width="-1" type="field" name="TIPO_FONTE" hidden="0"/>
-          <column width="-1" type="field" name="DATA_DA" hidden="0"/>
-          <column width="-1" type="field" name="DATA_A" hidden="0"/>
-          <column width="-1" type="field" name="H_GRONDA" hidden="0"/>
-          <column width="-1" type="field" name="H_COLMO" hidden="0"/>
-          <column width="-1" type="field" name="A_BASE" hidden="0"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column hidden="0" width="-1" type="field" name="TY_PORZ"/>
+          <column hidden="0" width="-1" type="field" name="D_TY_PORZ"/>
+          <column hidden="0" width="-1" type="field" name="TY_INTR"/>
+          <column hidden="0" width="-1" type="field" name="D_TY_INTR"/>
+          <column hidden="0" width="-1" type="field" name="H_INTR"/>
+          <column hidden="0" width="-1" type="field" name="BASE"/>
+          <column hidden="0" width="-1" type="field" name="D_BASE"/>
+          <column hidden="0" width="-1" type="field" name="TETTO"/>
+          <column hidden="0" width="-1" type="field" name="D_TETTO"/>
+          <column hidden="0" width="-1" type="field" name="B_UVL"/>
+          <column hidden="0" width="-1" type="field" name="H_UVL"/>
+          <column hidden="0" width="-1" type="field" name="V_UVL"/>
+          <column hidden="0" width="-1" type="field" name="EDI_ID_E"/>
+          <column hidden="0" width="-1" type="field" name="TY_E"/>
+          <column hidden="0" width="-1" type="field" name="ID_E"/>
+          <column hidden="0" width="-1" type="field" name="DT_INI_VAL"/>
+          <column hidden="0" width="-1" type="field" name="DATA_AGG"/>
+          <column hidden="0" width="-1" type="field" name="D_TIPO_AGG"/>
+          <column hidden="0" width="-1" type="field" name="DT_PRES"/>
+          <column hidden="0" width="-1" type="field" name="ST_VALID"/>
+          <column hidden="0" width="-1" type="field" name="ST_CERTIF"/>
+          <column hidden="0" width="-1" type="field" name="QUALITA"/>
+          <column hidden="0" width="-1" type="field" name="METODO"/>
+          <column hidden="0" width="-1" type="field" name="D_METODO"/>
+          <column hidden="0" width="-1" type="field" name="COMP_FONTI"/>
+          <column hidden="0" width="-1" type="field" name="SEZ_ID_E"/>
+          <column hidden="0" width="-1" type="field" name="TIPO_FONTE"/>
+          <column hidden="0" width="-1" type="field" name="DATA_DA"/>
+          <column hidden="0" width="-1" type="field" name="DATA_A"/>
+          <column hidden="0" width="-1" type="field" name="H_GRONDA"/>
+          <column hidden="0" width="-1" type="field" name="H_COLMO"/>
+          <column hidden="0" width="-1" type="field" name="A_BASE"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1642,7 +2079,7 @@
       <previewExpression>"D_TY_PORZ"</previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
-    <maplayer legendPlaceholderImage="" type="raster" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="raster" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278924763202667</ymin>
@@ -1715,13 +2152,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal fetchMode="0" mode="0" enabled="0">
+      <temporal fetchMode="0" enabled="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" symbology="Line" zscale="1" enabled="0" band="1">
+      <elevation band="1" enabled="0" zscale="1" symbology="Line" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -1730,7 +2167,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1738,7 +2175,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{572cc489-9188-4f34-b316-013e238d7dc3}" pass="0" enabled="1" locked="0">
+            <layer id="{572cc489-9188-4f34-b316-013e238d7dc3}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -1779,7 +2216,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1787,7 +2224,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{be29c632-39c2-44ea-94cd-4aafacadd137}" pass="0" enabled="1" locked="0">
+            <layer id="{be29c632-39c2-44ea-94cd-4aafacadd137}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="145,82,45,255" type="QString" name="color"/>
@@ -1827,9 +2264,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
         </provider>
-        <rasterrenderer nodataColor="" opacity="1" type="singlebandcolordata" alphaBand="-1" band="1">
+        <rasterrenderer opacity="1" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1840,14 +2277,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation invertColors="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" colorizeStrength="100"/>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer legendPlaceholderImage="" type="raster" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="raster" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>751277.62580000003799796</xmin>
         <ymin>4953245.26559999957680702</ymin>
@@ -1919,13 +2356,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal fetchMode="0" mode="0" enabled="0">
+      <temporal fetchMode="0" enabled="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" symbology="Line" zscale="1" enabled="0" band="1">
+      <elevation band="1" enabled="0" zscale="1" symbology="Line" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -1934,7 +2371,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1942,7 +2379,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{fdf2722d-2a9e-4dd4-9c53-7d7f039aa87a}" pass="0" enabled="1" locked="0">
+            <layer id="{fdf2722d-2a9e-4dd4-9c53-7d7f039aa87a}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -1983,7 +2420,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -1991,7 +2428,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{36ece168-6766-4977-9544-5277054383c7}" pass="0" enabled="1" locked="0">
+            <layer id="{36ece168-6766-4977-9544-5277054383c7}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="133,182,111,255" type="QString" name="color"/>
@@ -2031,9 +2468,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
         </provider>
-        <rasterrenderer nodataColor="" gradient="BlackToWhite" opacity="1" type="singlebandgray" alphaBand="-1" grayBand="1">
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1" nodataColor="" gradient="BlackToWhite">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -2048,7 +2485,7 @@
             <maxValue>3.953999996185303</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
-          <rampLegendSettings direction="0" suffix="" prefix="" minimumLabel="" useContinuousLegend="1" maximumLabel="" orientation="2">
+          <rampLegendSettings maximumLabel="" suffix="" direction="0" minimumLabel="" orientation="2" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
                 <Option type="invalid" name="decimal_separator"/>
@@ -2062,14 +2499,14 @@
             </numericFormat>
           </rampLegendSettings>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation invertColors="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" colorizeStrength="100"/>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer legendPlaceholderImage="" type="raster" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="raster" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>751277.62580000003799796</xmin>
         <ymin>4953245.26559999957680702</ymin>
@@ -2141,13 +2578,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal fetchMode="0" mode="0" enabled="0">
+      <temporal fetchMode="0" enabled="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" symbology="Line" zscale="1" enabled="0" band="1">
+      <elevation band="1" enabled="0" zscale="1" symbology="Line" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -2156,7 +2593,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2164,7 +2601,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{f7391e30-bb80-464f-b3b4-f4bf2b2c395a}" pass="0" enabled="1" locked="0">
+            <layer id="{f7391e30-bb80-464f-b3b4-f4bf2b2c395a}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -2205,7 +2642,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2213,7 +2650,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{872ae67c-8012-4138-9f98-f07899276e85}" pass="0" enabled="1" locked="0">
+            <layer id="{872ae67c-8012-4138-9f98-f07899276e85}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="213,180,60,255" type="QString" name="color"/>
@@ -2253,9 +2690,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
         </provider>
-        <rasterrenderer nodataColor="" gradient="BlackToWhite" opacity="1" type="singlebandgray" alphaBand="-1" grayBand="1">
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1" nodataColor="" gradient="BlackToWhite">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -2270,7 +2707,7 @@
             <maxValue>4.585999965667725</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
-          <rampLegendSettings direction="0" suffix="" prefix="" minimumLabel="" useContinuousLegend="1" maximumLabel="" orientation="2">
+          <rampLegendSettings maximumLabel="" suffix="" direction="0" minimumLabel="" orientation="2" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
                 <Option type="invalid" name="decimal_separator"/>
@@ -2284,14 +2721,14 @@
             </numericFormat>
           </rampLegendSettings>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation invertColors="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" colorizeStrength="100"/>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer legendPlaceholderImage="" type="raster" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="raster" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>759453.44929999997839332</xmin>
         <ymin>4971249.5</ymin>
@@ -2363,13 +2800,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal fetchMode="0" mode="0" enabled="0">
+      <temporal fetchMode="0" enabled="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" symbology="Line" zscale="1" enabled="0" band="1">
+      <elevation band="1" enabled="0" zscale="1" symbology="Line" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -2378,7 +2815,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2386,7 +2823,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{471ac364-1380-42f8-b6e9-25c7992bd1a5}" pass="0" enabled="1" locked="0">
+            <layer id="{471ac364-1380-42f8-b6e9-25c7992bd1a5}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -2427,7 +2864,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2435,7 +2872,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{890036cb-7014-4d68-9265-9d2ed2f973fb}" pass="0" enabled="1" locked="0">
+            <layer id="{890036cb-7014-4d68-9265-9d2ed2f973fb}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="164,113,88,255" type="QString" name="color"/>
@@ -2475,9 +2912,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
         </provider>
-        <rasterrenderer nodataColor="" gradient="BlackToWhite" opacity="1" type="singlebandgray" alphaBand="-1" grayBand="1">
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1" nodataColor="" gradient="BlackToWhite">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -2492,7 +2929,7 @@
             <maxValue>4.063000202178955</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
-          <rampLegendSettings direction="0" suffix="" prefix="" minimumLabel="" useContinuousLegend="1" maximumLabel="" orientation="2">
+          <rampLegendSettings maximumLabel="" suffix="" direction="0" minimumLabel="" orientation="2" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
                 <Option type="invalid" name="decimal_separator"/>
@@ -2506,14 +2943,14 @@
             </numericFormat>
           </rampLegendSettings>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation invertColors="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" colorizeStrength="100"/>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer legendPlaceholderImage="" type="raster" autoRefreshMode="Disabled" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer minScale="1e+08" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" refreshOnNotifyMessage="" legendPlaceholderImage="" type="raster" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>759453.44929999997839332</xmin>
         <ymin>4971249.5</ymin>
@@ -2585,13 +3022,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal fetchMode="0" mode="0" enabled="0">
+      <temporal fetchMode="0" enabled="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation zoffset="0" symbology="Line" zscale="1" enabled="0" band="1">
+      <elevation band="1" enabled="0" zscale="1" symbology="Line" zoffset="0">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -2600,7 +3037,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2608,7 +3045,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{a9c62d7f-aabe-460f-b28c-2e7cb97fd343}" pass="0" enabled="1" locked="0">
+            <layer id="{a9c62d7f-aabe-460f-b28c-2e7cb97fd343}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -2649,7 +3086,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2657,7 +3094,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{e50ad504-0960-45a5-8578-1ac0e330b515}" pass="0" enabled="1" locked="0">
+            <layer id="{e50ad504-0960-45a5-8578-1ac0e330b515}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="114,155,111,255" type="QString" name="color"/>
@@ -2697,9 +3134,9 @@
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
         </provider>
-        <rasterrenderer nodataColor="" gradient="BlackToWhite" opacity="1" type="singlebandgray" alphaBand="-1" grayBand="1">
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1" nodataColor="" gradient="BlackToWhite">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -2714,7 +3151,7 @@
             <maxValue>4.852999687194824</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
-          <rampLegendSettings direction="0" suffix="" prefix="" minimumLabel="" useContinuousLegend="1" maximumLabel="" orientation="2">
+          <rampLegendSettings maximumLabel="" suffix="" direction="0" minimumLabel="" orientation="2" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
                 <Option type="invalid" name="decimal_separator"/>
@@ -2728,20 +3165,20 @@
             </numericFormat>
           </rampLegendSettings>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation invertColors="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" colorizeStrength="100"/>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" saturation="0"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" minScale="100000000" labelsEnabled="0" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" simplifyMaxScale="1" readOnly="0" geometry="Polygon" refreshOnNotifyMessage="" autoRefreshMode="Disabled" type="vector" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" simplifyLocal="1" symbologyReferenceScale="-1" maxScale="0">
-      <id>wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f</id>
-      <datasource>C:/Users/valer/Downloads/00001/output/wd_analysis_20251026_123321.shp</datasource>
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <id>wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6</id>
+      <datasource>C:/Users/valer/Downloads/00001/output/wd_analysis_20251027_205558.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>wd_analysis_20251026_123321</layername>
+      <layername>wd_analysis_20251027_205558</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
@@ -2797,13 +3234,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal startExpression="" limitMode="0" endField="" durationField="" accumulate="0" durationUnit="min" mode="0" startField="" endExpression="" enabled="0" fixedDuration="0">
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation clamping="Terrain" zoffset="0" extrusionEnabled="0" respectLayerSymbol="1" zscale="1" symbology="Line" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusion="0" binding="Centroid">
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -2812,7 +3249,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2820,7 +3257,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{734f541c-a52e-4c86-b2c7-7882439fa666}" pass="0" enabled="1" locked="0">
+            <layer id="{bff0390e-16d1-4db4-9427-9fa7775668a8}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -2832,7 +3269,7 @@
                 <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
                 <Option value="0" type="QString" name="draw_inside_polygon"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="125,139,143,255" type="QString" name="line_color"/>
+                <Option value="114,155,111,255" type="QString" name="line_color"/>
                 <Option value="solid" type="QString" name="line_style"/>
                 <Option value="0.6" type="QString" name="line_width"/>
                 <Option value="MM" type="QString" name="line_width_unit"/>
@@ -2861,7 +3298,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2869,15 +3306,15 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{aa960883-7b64-4732-8751-bc5ba3bad3a2}" pass="0" enabled="1" locked="0">
+            <layer id="{0fb9b1b0-acdf-4d79-9e63-a95f1defcfa5}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="125,139,143,255" type="QString" name="color"/>
+                <Option value="114,155,111,255" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="89,99,102,255" type="QString" name="outline_color"/>
+                <Option value="81,111,79,255" type="QString" name="outline_color"/>
                 <Option value="solid" type="QString" name="outline_style"/>
                 <Option value="0.2" type="QString" name="outline_width"/>
                 <Option value="MM" type="QString" name="outline_width_unit"/>
@@ -2894,7 +3331,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="marker" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2902,18 +3339,18 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" id="{ca99637c-17e8-44d4-8005-498a17c69768}" pass="0" enabled="1" locked="0">
+            <layer id="{b1e91cc4-6fa4-40bb-9995-b42eaff59c20}" locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
                 <Option value="square" type="QString" name="cap_style"/>
-                <Option value="125,139,143,255" type="QString" name="color"/>
+                <Option value="114,155,111,255" type="QString" name="color"/>
                 <Option value="1" type="QString" name="horizontal_anchor_point"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="diamond" type="QString" name="name"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="89,99,102,255" type="QString" name="outline_color"/>
+                <Option value="81,111,79,255" type="QString" name="outline_color"/>
                 <Option value="solid" type="QString" name="outline_style"/>
                 <Option value="0.2" type="QString" name="outline_width"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
@@ -2935,9 +3372,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" referencescale="-1" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
         <symbols>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="0" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -2945,10 +3382,10 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{234392e8-8d9d-42ec-957b-60d37e9a72da}" pass="0" enabled="1" locked="0">
+            <layer id="{0bdea9af-6565-49fb-8d00-618ff1c8d535}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="133,182,111,255" type="QString" name="color"/>
+                <Option value="243,166,178,255" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
@@ -3052,70 +3489,70 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="FID" index="0"/>
-        <alias name="" field="A_FABBR" index="1"/>
-        <alias name="" field="H_UVL" index="2"/>
-        <alias name="" field="V_FABBR" index="3"/>
-        <alias name="" field="H_MEAN_INO" index="4"/>
-        <alias name="" field="H_MIN_INON" index="5"/>
-        <alias name="" field="H_MAX_INON" index="6"/>
-        <alias name="" field="PERC_V_INO" index="7"/>
+        <alias index="0" field="FID" name=""/>
+        <alias index="1" field="A_FABBR" name=""/>
+        <alias index="2" field="H_UVL" name=""/>
+        <alias index="3" field="V_FABBR" name=""/>
+        <alias index="4" field="H_MEAN_INO" name=""/>
+        <alias index="5" field="H_MIN_INON" name=""/>
+        <alias index="6" field="H_MAX_INON" name=""/>
+        <alias index="7" field="PERC_V_INO" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="FID"/>
-        <policy policy="Duplicate" field="A_FABBR"/>
-        <policy policy="Duplicate" field="H_UVL"/>
-        <policy policy="Duplicate" field="V_FABBR"/>
-        <policy policy="Duplicate" field="H_MEAN_INO"/>
-        <policy policy="Duplicate" field="H_MIN_INON"/>
-        <policy policy="Duplicate" field="H_MAX_INON"/>
-        <policy policy="Duplicate" field="PERC_V_INO"/>
+        <policy field="FID" policy="Duplicate"/>
+        <policy field="A_FABBR" policy="Duplicate"/>
+        <policy field="H_UVL" policy="Duplicate"/>
+        <policy field="V_FABBR" policy="Duplicate"/>
+        <policy field="H_MEAN_INO" policy="Duplicate"/>
+        <policy field="H_MIN_INON" policy="Duplicate"/>
+        <policy field="H_MAX_INON" policy="Duplicate"/>
+        <policy field="PERC_V_INO" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="FID"/>
-        <default expression="" applyOnUpdate="0" field="A_FABBR"/>
-        <default expression="" applyOnUpdate="0" field="H_UVL"/>
-        <default expression="" applyOnUpdate="0" field="V_FABBR"/>
-        <default expression="" applyOnUpdate="0" field="H_MEAN_INO"/>
-        <default expression="" applyOnUpdate="0" field="H_MIN_INON"/>
-        <default expression="" applyOnUpdate="0" field="H_MAX_INON"/>
-        <default expression="" applyOnUpdate="0" field="PERC_V_INO"/>
+        <default field="FID" applyOnUpdate="0" expression=""/>
+        <default field="A_FABBR" applyOnUpdate="0" expression=""/>
+        <default field="H_UVL" applyOnUpdate="0" expression=""/>
+        <default field="V_FABBR" applyOnUpdate="0" expression=""/>
+        <default field="H_MEAN_INO" applyOnUpdate="0" expression=""/>
+        <default field="H_MIN_INON" applyOnUpdate="0" expression=""/>
+        <default field="H_MAX_INON" applyOnUpdate="0" expression=""/>
+        <default field="PERC_V_INO" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="FID"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="A_FABBR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="V_FABBR"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_MEAN_INO"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_MIN_INON"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_MAX_INON"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PERC_V_INO"/>
+        <constraint field="FID" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="A_FABBR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="V_FABBR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MEAN_INO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MIN_INON" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MAX_INON" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="PERC_V_INO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="FID"/>
-        <constraint exp="" desc="" field="A_FABBR"/>
-        <constraint exp="" desc="" field="H_UVL"/>
-        <constraint exp="" desc="" field="V_FABBR"/>
-        <constraint exp="" desc="" field="H_MEAN_INO"/>
-        <constraint exp="" desc="" field="H_MIN_INON"/>
-        <constraint exp="" desc="" field="H_MAX_INON"/>
-        <constraint exp="" desc="" field="PERC_V_INO"/>
+        <constraint exp="" field="FID" desc=""/>
+        <constraint exp="" field="A_FABBR" desc=""/>
+        <constraint exp="" field="H_UVL" desc=""/>
+        <constraint exp="" field="V_FABBR" desc=""/>
+        <constraint exp="" field="H_MEAN_INO" desc=""/>
+        <constraint exp="" field="H_MIN_INON" desc=""/>
+        <constraint exp="" field="H_MAX_INON" desc=""/>
+        <constraint exp="" field="PERC_V_INO" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;H_MEAN_INO&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;H_MEAN_INO&quot;">
         <columns>
-          <column width="-1" type="field" name="FID" hidden="0"/>
-          <column width="-1" type="field" name="A_FABBR" hidden="0"/>
-          <column width="-1" type="field" name="H_UVL" hidden="0"/>
-          <column width="-1" type="field" name="V_FABBR" hidden="0"/>
-          <column width="-1" type="field" name="H_MEAN_INO" hidden="0"/>
-          <column width="-1" type="field" name="H_MIN_INON" hidden="0"/>
-          <column width="-1" type="field" name="H_MAX_INON" hidden="0"/>
-          <column width="-1" type="field" name="PERC_V_INO" hidden="0"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column hidden="0" width="-1" type="field" name="FID"/>
+          <column hidden="0" width="-1" type="field" name="A_FABBR"/>
+          <column hidden="0" width="-1" type="field" name="H_UVL"/>
+          <column hidden="0" width="-1" type="field" name="V_FABBR"/>
+          <column hidden="0" width="-1" type="field" name="H_MEAN_INO"/>
+          <column hidden="0" width="-1" type="field" name="H_MIN_INON"/>
+          <column hidden="0" width="-1" type="field" name="H_MAX_INON"/>
+          <column hidden="0" width="-1" type="field" name="PERC_V_INO"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3138,19 +3575,410 @@
       <previewExpression>"FID"</previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" minScale="100000000" labelsEnabled="0" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" simplifyMaxScale="1" readOnly="0" geometry="Polygon" refreshOnNotifyMessage="" autoRefreshMode="Disabled" type="vector" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" simplifyLocal="1" symbologyReferenceScale="-1" maxScale="0">
-      <extent>
-        <xmin>757615.70580210408661515</xmin>
-        <ymin>4965359.26122127752751112</ymin>
-        <xmax>768702.05400219280272722</xmax>
-        <ymax>4976343.25912366434931755</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>12.25700239792482549</xmin>
-        <ymin>44.79109535173477497</ymin>
-        <xmax>12.40273642273124999</xmax>
-        <ymax>44.8938956337916153</ymax>
-      </wgs84extent>
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <id>wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b</id>
+      <datasource>C:/Users/valer/Downloads/00001/output/wd_analysis_20251027_205645.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wd_analysis_20251027_205645</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28986</srsid>
+          <srid>7791</srid>
+          <authid>EPSG:7791</authid>
+          <description>RDN2008 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
+            <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>28986</srsid>
+            <srid>7791</srid>
+            <authid>EPSG:7791</authid>
+            <description>RDN2008 / UTM zone 32N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{28f0514f-3b8d-4dfe-a8cb-cf9d8f3dc4bf}" locked="0" class="SimpleLine" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="141,90,153,255" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.6" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{2f15028d-08ee-4ebd-9ca2-8580ebeda986}" locked="0" class="SimpleFill" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="141,90,153,255" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="101,64,109,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{1cca7e33-d100-44de-8e77-ca74185d108b}" locked="0" class="SimpleMarker" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="angle"/>
+                <Option value="square" type="QString" name="cap_style"/>
+                <Option value="141,90,153,255" type="QString" name="color"/>
+                <Option value="1" type="QString" name="horizontal_anchor_point"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="diamond" type="QString" name="name"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="101,64,109,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="diameter" type="QString" name="scale_method"/>
+                <Option value="3" type="QString" name="size"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+                <Option value="MM" type="QString" name="size_unit"/>
+                <Option value="1" type="QString" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
+        <symbols>
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{fd76fbb7-831e-4094-9aee-c9a5e5a8b90f}" locked="0" class="SimpleFill" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="232,113,141,255" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="35,35,35,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.26" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option type="List" name="dualview/previewExpressions">
+            <Option value="&quot;FID&quot;" type="QString"/>
+          </Option>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="A_FABBR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_UVL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="V_FABBR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_MEAN_INO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_MIN_INON">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="H_MAX_INON">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="PERC_V_INO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="FID" name=""/>
+        <alias index="1" field="A_FABBR" name=""/>
+        <alias index="2" field="H_UVL" name=""/>
+        <alias index="3" field="V_FABBR" name=""/>
+        <alias index="4" field="H_MEAN_INO" name=""/>
+        <alias index="5" field="H_MIN_INON" name=""/>
+        <alias index="6" field="H_MAX_INON" name=""/>
+        <alias index="7" field="PERC_V_INO" name=""/>
+      </aliases>
+      <splitPolicies>
+        <policy field="FID" policy="Duplicate"/>
+        <policy field="A_FABBR" policy="Duplicate"/>
+        <policy field="H_UVL" policy="Duplicate"/>
+        <policy field="V_FABBR" policy="Duplicate"/>
+        <policy field="H_MEAN_INO" policy="Duplicate"/>
+        <policy field="H_MIN_INON" policy="Duplicate"/>
+        <policy field="H_MAX_INON" policy="Duplicate"/>
+        <policy field="PERC_V_INO" policy="Duplicate"/>
+      </splitPolicies>
+      <defaults>
+        <default field="FID" applyOnUpdate="0" expression=""/>
+        <default field="A_FABBR" applyOnUpdate="0" expression=""/>
+        <default field="H_UVL" applyOnUpdate="0" expression=""/>
+        <default field="V_FABBR" applyOnUpdate="0" expression=""/>
+        <default field="H_MEAN_INO" applyOnUpdate="0" expression=""/>
+        <default field="H_MIN_INON" applyOnUpdate="0" expression=""/>
+        <default field="H_MAX_INON" applyOnUpdate="0" expression=""/>
+        <default field="PERC_V_INO" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="FID" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="A_FABBR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="V_FABBR" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MEAN_INO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MIN_INON" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_MAX_INON" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="PERC_V_INO" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="FID" desc=""/>
+        <constraint exp="" field="A_FABBR" desc=""/>
+        <constraint exp="" field="H_UVL" desc=""/>
+        <constraint exp="" field="V_FABBR" desc=""/>
+        <constraint exp="" field="H_MEAN_INO" desc=""/>
+        <constraint exp="" field="H_MIN_INON" desc=""/>
+        <constraint exp="" field="H_MAX_INON" desc=""/>
+        <constraint exp="" field="PERC_V_INO" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;H_MEAN_INO&quot;">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="FID"/>
+          <column hidden="0" width="-1" type="field" name="A_FABBR"/>
+          <column hidden="0" width="-1" type="field" name="H_UVL"/>
+          <column hidden="0" width="-1" type="field" name="V_FABBR"/>
+          <column hidden="0" width="-1" type="field" name="H_MEAN_INO"/>
+          <column hidden="0" width="-1" type="field" name="H_MIN_INON"/>
+          <column hidden="0" width="-1" type="field" name="H_MAX_INON"/>
+          <column hidden="0" width="-1" type="field" name="PERC_V_INO"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"FID"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer type="vector" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" legendPlaceholderImage="" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="100000000" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" autoRefreshTime="0" styleCategories="AllStyleCategories">
       <id>wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61</id>
       <datasource>./wd_analysis/wd_estimation.shp</datasource>
       <keywordList>
@@ -3212,13 +4040,13 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal startExpression="" limitMode="0" endField="" durationField="" accumulate="0" durationUnit="min" mode="0" startField="" endExpression="" enabled="0" fixedDuration="0">
+      <temporal durationUnit="min" accumulate="0" startField="" startExpression="" limitMode="0" durationField="" endField="" endExpression="" enabled="0" fixedDuration="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation clamping="Terrain" zoffset="0" extrusionEnabled="0" respectLayerSymbol="1" zscale="1" symbology="Line" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusion="0" binding="Centroid">
+      <elevation showMarkerSymbolInSurfacePlots="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" binding="Centroid" respectLayerSymbol="1" zscale="1" type="IndividualFeatures" zoffset="0" symbology="Line">
         <data-defined-properties>
           <Option type="Map">
             <Option value="" type="QString" name="name"/>
@@ -3227,7 +4055,7 @@
           </Option>
         </data-defined-properties>
         <profileLineSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="line" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="line" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -3235,7 +4063,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" id="{84631cfb-1a75-4a3d-b5f0-72d12be8e52e}" pass="0" enabled="1" locked="0">
+            <layer id="{84631cfb-1a75-4a3d-b5f0-72d12be8e52e}" locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -3276,7 +4104,7 @@
           </symbol>
         </profileLineSymbol>
         <profileFillSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -3284,7 +4112,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{f272d282-ee06-4244-bd86-8bb83c1dbf1b}" pass="0" enabled="1" locked="0">
+            <layer id="{f272d282-ee06-4244-bd86-8bb83c1dbf1b}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="231,113,72,255" type="QString" name="color"/>
@@ -3309,7 +4137,7 @@
           </symbol>
         </profileFillSymbol>
         <profileMarkerSymbol>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="marker" name="" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="marker" frame_rate="10" name="">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -3317,7 +4145,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" id="{7527e3d4-1019-4cec-aa88-3600170685ce}" pass="0" enabled="1" locked="0">
+            <layer id="{7527e3d4-1019-4cec-aa88-3600170685ce}" locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
                 <Option value="square" type="QString" name="cap_style"/>
@@ -3350,9 +4178,9 @@
           </symbol>
         </profileMarkerSymbol>
       </elevation>
-      <renderer-v2 symbollevels="0" referencescale="-1" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0" referencescale="-1">
         <symbols>
-          <symbol force_rhr="0" frame_rate="10" alpha="1" type="fill" name="0" is_animated="0" clip_to_extent="1">
+          <symbol clip_to_extent="1" is_animated="0" alpha="1" force_rhr="0" type="fill" frame_rate="10" name="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option value="" type="QString" name="name"/>
@@ -3360,7 +4188,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" id="{cb4ff0df-2df9-4618-96f6-2e4e37a2d736}" pass="0" enabled="1" locked="0">
+            <layer id="{cb4ff0df-2df9-4618-96f6-2e4e37a2d736}" locked="0" class="SimpleFill" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="152,125,183,255" type="QString" name="color"/>
@@ -3460,64 +4288,64 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="A_BASE" index="0"/>
-        <alias name="" field="H_UVL" index="1"/>
-        <alias name="" field="VOL" index="2"/>
-        <alias name="" field="DEPTH_MEAN" index="3"/>
-        <alias name="" field="DEPTH_MIN" index="4"/>
-        <alias name="" field="DEPTH_MAX" index="5"/>
-        <alias name="" field="PERC_SUBM" index="6"/>
+        <alias index="0" field="A_BASE" name=""/>
+        <alias index="1" field="H_UVL" name=""/>
+        <alias index="2" field="VOL" name=""/>
+        <alias index="3" field="DEPTH_MEAN" name=""/>
+        <alias index="4" field="DEPTH_MIN" name=""/>
+        <alias index="5" field="DEPTH_MAX" name=""/>
+        <alias index="6" field="PERC_SUBM" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="A_BASE"/>
-        <policy policy="Duplicate" field="H_UVL"/>
-        <policy policy="Duplicate" field="VOL"/>
-        <policy policy="Duplicate" field="DEPTH_MEAN"/>
-        <policy policy="Duplicate" field="DEPTH_MIN"/>
-        <policy policy="Duplicate" field="DEPTH_MAX"/>
-        <policy policy="Duplicate" field="PERC_SUBM"/>
+        <policy field="A_BASE" policy="Duplicate"/>
+        <policy field="H_UVL" policy="Duplicate"/>
+        <policy field="VOL" policy="Duplicate"/>
+        <policy field="DEPTH_MEAN" policy="Duplicate"/>
+        <policy field="DEPTH_MIN" policy="Duplicate"/>
+        <policy field="DEPTH_MAX" policy="Duplicate"/>
+        <policy field="PERC_SUBM" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="A_BASE"/>
-        <default expression="" applyOnUpdate="0" field="H_UVL"/>
-        <default expression="" applyOnUpdate="0" field="VOL"/>
-        <default expression="" applyOnUpdate="0" field="DEPTH_MEAN"/>
-        <default expression="" applyOnUpdate="0" field="DEPTH_MIN"/>
-        <default expression="" applyOnUpdate="0" field="DEPTH_MAX"/>
-        <default expression="" applyOnUpdate="0" field="PERC_SUBM"/>
+        <default field="A_BASE" applyOnUpdate="0" expression=""/>
+        <default field="H_UVL" applyOnUpdate="0" expression=""/>
+        <default field="VOL" applyOnUpdate="0" expression=""/>
+        <default field="DEPTH_MEAN" applyOnUpdate="0" expression=""/>
+        <default field="DEPTH_MIN" applyOnUpdate="0" expression=""/>
+        <default field="DEPTH_MAX" applyOnUpdate="0" expression=""/>
+        <default field="PERC_SUBM" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="A_BASE"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="H_UVL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="VOL"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DEPTH_MEAN"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DEPTH_MIN"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DEPTH_MAX"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PERC_SUBM"/>
+        <constraint field="A_BASE" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="H_UVL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="VOL" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DEPTH_MEAN" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DEPTH_MIN" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="DEPTH_MAX" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="PERC_SUBM" notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="A_BASE"/>
-        <constraint exp="" desc="" field="H_UVL"/>
-        <constraint exp="" desc="" field="VOL"/>
-        <constraint exp="" desc="" field="DEPTH_MEAN"/>
-        <constraint exp="" desc="" field="DEPTH_MIN"/>
-        <constraint exp="" desc="" field="DEPTH_MAX"/>
-        <constraint exp="" desc="" field="PERC_SUBM"/>
+        <constraint exp="" field="A_BASE" desc=""/>
+        <constraint exp="" field="H_UVL" desc=""/>
+        <constraint exp="" field="VOL" desc=""/>
+        <constraint exp="" field="DEPTH_MEAN" desc=""/>
+        <constraint exp="" field="DEPTH_MIN" desc=""/>
+        <constraint exp="" field="DEPTH_MAX" desc=""/>
+        <constraint exp="" field="PERC_SUBM" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;DEPTH_MEAN&quot;" sortOrder="1" actionWidgetStyle="dropDown">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="1" sortExpression="&quot;DEPTH_MEAN&quot;">
         <columns>
-          <column width="-1" type="field" name="A_BASE" hidden="0"/>
-          <column width="-1" type="field" name="H_UVL" hidden="0"/>
-          <column width="-1" type="field" name="VOL" hidden="0"/>
-          <column width="-1" type="field" name="DEPTH_MEAN" hidden="0"/>
-          <column width="-1" type="field" name="DEPTH_MIN" hidden="0"/>
-          <column width="-1" type="field" name="DEPTH_MAX" hidden="0"/>
-          <column width="-1" type="field" name="PERC_SUBM" hidden="0"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column hidden="0" width="-1" type="field" name="A_BASE"/>
+          <column hidden="0" width="-1" type="field" name="H_UVL"/>
+          <column hidden="0" width="-1" type="field" name="VOL"/>
+          <column hidden="0" width="-1" type="field" name="DEPTH_MEAN"/>
+          <column hidden="0" width="-1" type="field" name="DEPTH_MIN"/>
+          <column hidden="0" width="-1" type="field" name="DEPTH_MAX"/>
+          <column hidden="0" width="-1" type="field" name="PERC_SUBM"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3550,7 +4378,9 @@
     <layer id="wd_estimation_4ba1f1d4_0749_4757_8d67_69817b183f61"/>
     <layer id="COMACCHIO_V_UVL_GPG_3882bbcf_f725_4eef_a5af_b76332dd1546"/>
     <layer id="GORO_V_UVL_GPG_bd66f177_4b32_4c93_a41f_b21685bb2738"/>
-    <layer id="wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f"/>
+    <layer id="wd_analysis_20251027_205558_26d38cde_8d3b_49b6_b34e_90d4129a7fa6"/>
+    <layer id="wd_analysis_20251027_205645_84eaab12_1e9e_4c31_a836_4629c12ae05b"/>
+    <layer id="ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366"/>
   </layerorder>
   <properties>
     <Digitizing>
@@ -3628,9 +4458,9 @@
   <mapViewDocks3D/>
   <Bookmarks/>
   <Sensors/>
-  <ProjectViewSettings UseProjectScales="0" rotation="0">
+  <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="760586.83661346219014376" ymin="4971855.52770859748125076" ymax="4972209.18114859610795975" xmax="761057.34945102559868246">
+    <DefaultViewExtent ymax="4954252.1456281254068017" xmax="752864.4944279690971598" ymin="4953534.14552515652030706" xmin="751483.79360884393099695">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["RDN2008 / UTM zone 32N",BASEGEOGCRS["RDN2008",DATUM["Rete Dinamica Nazionale 2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6706]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["GIS."],AREA["Italy - onshore and offshore - west of 12°E."],BBOX[36.53,5.93,47.04,12]],ID["EPSG",7791]]</wkt>
         <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3644,16 +4474,16 @@
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" projectStyleId="attachment:///ZxENUE_styles.db">
+  <ProjectStyleSettings projectStyleId="attachment:///ZxENUE_styles.db" DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1">
     <databases/>
   </ProjectStyleSettings>
-  <ProjectTimeSettings timeStep="1" frameRate="1" cumulativeTemporalRange="0" timeStepUnit="h"/>
+  <ProjectTimeSettings timeStepUnit="h" timeStep="1" cumulativeTemporalRange="0" frameRate="1"/>
   <ElevationProperties>
     <terrainProvider type="flat">
-      <TerrainProvider offset="0" scale="1"/>
+      <TerrainProvider scale="1" offset="0"/>
     </terrainProvider>
   </ElevationProperties>
-  <ProjectDisplaySettings CoordinateType="MapCrs" CoordinateAxisOrder="Default">
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
     <BearingFormat id="bearing">
       <Option type="Map">
         <Option type="invalid" name="decimal_separator"/>
@@ -3695,7 +4525,7 @@
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationFollowsActiveLayer="1" destinationLayerName="wd_analysis_20251026_123321" autoCommitFeatures="0" destinationLayerSource="C:/Users/valer/Downloads/00001/output/wd_analysis_20251026_123321.shp" autoAddTrackVertices="0" destinationLayerProvider="ogr" destinationLayer="wd_analysis_20251026_123321_663068ef_ac72_40ee_bbff_1cbb353ad05f">
+  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayerName="ABC_analysis_DEF" destinationLayer="ABC_analysis_DEF_419a5174_d9db_4eac_8637_c029cbf5f366" destinationLayerSource="C:/Users/valer/Downloads/risultati_test_vale/output/ABC_analysis_DEF.shp" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
